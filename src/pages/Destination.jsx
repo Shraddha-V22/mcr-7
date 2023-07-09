@@ -27,7 +27,7 @@ export default function Destination() {
   return (
     <section className="flex h-[100vh] w-full flex-col items-center gap-8 bg-black/90 p-4 text-white">
       <h1 className="text-2xl font-bold">{name}</h1>
-      <div className="flex gap-4 p-4">
+      <div className="mx-auto flex max-w-[60%] gap-4 p-4">
         <img src={image} alt={name} className="w-[200px] rounded-md" />
         <div>
           <p>
