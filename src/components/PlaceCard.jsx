@@ -6,7 +6,7 @@ export default function PlaceCard({ imgUrl, placeName, navTo }) {
   return (
     <div
       onClick={() => navigate(navTo)}
-      className="relative h-[200px] w-[200px] overflow-hidden rounded-md"
+      className="relative h-[200px] w-[200px] cursor-pointer overflow-hidden rounded-md"
     >
       <img
         src={imgUrl}
